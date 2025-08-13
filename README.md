@@ -1,4 +1,4 @@
-Example about implement pointer lists with golang.\
+# Example about implement pointer lists with golang.\
 The struct utilized for the axample is Persona:
 
 STRUCT\
