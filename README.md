@@ -3,16 +3,16 @@ The struct utilized for the axample is Persona:
 
 STRUCT\
 type Persona struct {\
-	\tNome    string\
-	\tCognome string\
-	\tEta     int\
-	\tNext    *Persona\
+    Nome    string\
+    Cognome string\
+    Eta     int\
+    Next    *Persona\
 }
 
 DEFINED THE NEW LINKEDLIST TYPE OF THE PERSON STRUCTURE\
 type LinkedList struct {\
-	\tHead *Persona\
-	\tTail *Persona\
+	Head *Persona\
+	Tail *Persona\
 }
 
 I implemented the following functions:
