@@ -1,7 +1,7 @@
-Example about implement pointer lists with golang.
+Example about implement pointer lists with golang. \
 The struct utilized for the axample is Persona:
 
-# Struct
+Struct
 type Persona struct {
 	Nome    string
 	Cognome string
@@ -9,7 +9,7 @@ type Persona struct {
 	Next    *Persona
 }
 
-# defined the new LinkedList type of the Person structure
+defined the new LinkedList type of the Person structure
 type LinkedList struct {
 	Head *Persona
 	Tail *Persona
